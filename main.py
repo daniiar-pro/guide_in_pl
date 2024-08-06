@@ -1,34 +1,6 @@
-
-# Read only classes
-class Article:
-    ...
-class Study(Article):
-    ...
-class JobSearch(Article):
-    ...
-class Legalisation(Article):
-    ...
-class Support(Article):
-    ...
-
-# Interactive classes, Interaction with a user
-class User:
-    ...
-    
-class Report(User):
-    ...
-
-class Feedback(User):
-    ...
-    
-class FAQ(User):
-    ...
-
-class Donate(User):
-    ...
-    
-
 def main():
-    ...
-if __name__=="__main__":
+    pass
+
+
+if __name__ == "__main__":
     main()
