@@ -1,7 +1,10 @@
+from data_class.study import Study
 
 
 def main():
-   pass
+   return Study.get_study_info()
+   
+
 
 if __name__ == "__main__":
     main()
