@@ -10,3 +10,6 @@ class News:
         request = requests.get(cls.API)
         response = request.json()
         return json.dumps(response, indent=2)
+
+    def need_help():
+        pass
