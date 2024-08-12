@@ -1,32 +1,54 @@
-import textwrap
-from pypdf import PdfReader
+import os
+import shutil
+import csv
 
 
 class Article:
+    """Displays articles for child classes"""
 
-    file_extensions = (".txt", ".pdf", ".csv")
-
-    def __init__(self, filename, format_width):
+    def __init__(self, filename):
         self.filename = filename
-        self.format_width = format_width
         self.text_data = ""
 
-    def display_text_article(self):
-
-        with open(self.filename) as file:
-            for line in file:
-                self.text_data += line
-                self.format_article()
-
-    def format_article(self):
-        wrapper = textwrap.TextWrapper(width=self.format_width)
-        word_list = wrapper.wrap(text=self.text_data)
-
-        for line in word_list:
-            print(line)
-
     def display_pdf_article(self):
-        reader = PdfReader(self.filename)
-        page = reader.pages[0]
-        self.text_data += page.extract_text()
-        self.format_article()
+        """Display's pdf articles (.pdf) files"""
+
+        download_path = "./downloads"
+
+        try:
+            if not os.path.exists(download_path):
+                os.makedirs(download_path)
+
+            download_file_path = os.path.join(
+                download_path, os.path.basename(self.filename)
+            )
+
+            shutil.copy(self.filename, download_file_path)
+            print(f"The file has been 'downloaded' to {download_file_path}")
+        except FileNotFoundError as e:
+            print(f"File not found: {self.filename}")
+        except Exception as e:
+            print("Something unexpected occured: {e}")
+
+    def display_csv_article(self):
+        """Displays file extensions: .csv"""
+
+        try:
+            csv_data = []
+
+            with open(self.filename) as file:
+                reader = csv.DictReader(file)
+                for row in reader:
+                    csv_data.append(
+                        {"title": row["title"], "description": row["description"]}
+                    )
+
+                for row in csv_data:
+                    print(f"{row['title']}: {row['description']}\n")
+                    print("\n" + "-" * 70 + "\n")
+        except FileNotFoundError as e:
+            print(f"File not found: {self.filename}")
+        except csv.Error as e:
+            print(f"csv file error: {e}")
+        except Exception as e:
+            print("Something unexpected occured: {e}")

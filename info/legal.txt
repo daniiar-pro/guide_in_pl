@@ -1,3 +1,0 @@
-A word-processing document that is created by Microsoft Word or exported from another word-processing such as Apple Pages or OpenOffice Writer is referred to as a DOC file. Some of the forms that are included in doc file format are Formatted text, pictures, tables, graphs, charts, page formatting, and print settings.
-
-All document forms including essays, resumes, letters, and invitations can be saved in DOC files. There will be an option available to you while creating a document in Word to save it in the DOC file format. The document’s contents are then saved as a DOC file that can be closed and reopened by the program for further editing. You can print your edited DOC file or save it as another file type such as a.PDF or.DOT document after editing.
