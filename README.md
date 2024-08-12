@@ -7,6 +7,6 @@
 1. Clone this repository
 2. Create `.env` file, go to [news API](https://newsdata.io/documentation), sign up , get api_key quickly which helps you to use app's features fully
 3. As you can see below, you'll have a `News`, `Study`, `Legalisation`, `Job search`, `FAQ`, `Donate us`, `Report an Issue` pages placed in the terminal which you can interact with
-
+https://github.com/daniiar-pro/guide_in_pl/blob/master/assets/honest_work.jpg
 
 ![figma_design](https://github.com/user-attachments/assets/fa762052-fb57-4816-8a8b-9fb30ac8ef9e)
