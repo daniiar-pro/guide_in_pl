@@ -30,6 +30,9 @@ therefore it run in the terminal rather than browser
 ### ⁉️ Report an Issue
 - Have you noticed some sort of untrusted source, report an issue and we'll to try resolve it as soon as possible, we always make sure our users consumes from  trusted and updated sources 
 
+### 🎉 Social Media
+- Don't forget to follow us on Social media to keep up with the latest events
+
 ## How to use the app
 1. Clone this repository
 2. Create `.env` file, go to [news API](https://newsdata.io/documentation), sign up , get api_key quickly which helps you to use app's features fully
