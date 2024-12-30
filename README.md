@@ -39,13 +39,21 @@ therefore it run in the terminal rather than browser
 `git clone https://github.com/daniiar-pro/guide_in_pl.git`
 3. Install required libraries
 `pip install -r requirements.txt`
-4. Configure API Keys
+4. Configure API Keys Sign up for free API keys from : [news API](https://newsdata.io/documentation)
+5. Create `.env` file in the root folder and store your `NEW_API_KEY=your_api_key`
 
-## How to use the app
-1. Clone this repository
-2. Create `.env` file, go to [news API](https://newsdata.io/documentation), sign up , get api_key quickly which helps you to use app's features fully
-3. As you can see below, you'll have a `News`, `Study`, `Legalisation`, `Job search`, `FAQ`, `Donate us`, `Report an Issue` pages placed in the terminal which you can interact with
 
+## Usage
+`python main.py`
+
+- Above command runs the app, and follow the instructions that pops up when app has started
+
+## Data Storage
+All data is stored in  CSV, PDF format under the info/ directory
+
+## Future Enhancements
+- Frontend Implementation: of the current application, for more Visual and better user experience
+- User Authentication: Allow users sign up to keep them updated with latest events
 
 ![figma_design](https://github.com/user-attachments/assets/fa762052-fb57-4816-8a8b-9fb30ac8ef9e)
 
