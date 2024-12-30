@@ -33,6 +33,14 @@ therefore it run in the terminal rather than browser
 ### 🎉 Social Media
 - Don't forget to follow us on Social media to keep up with the latest events
 
+## Setup
+1. Prerequisites Ensure you have Python 3.x installed on your system.
+2. Clone the Repository
+`git clone https://github.com/daniiar-pro/guide_in_pl.git`
+3. Install required libraries
+`pip install -r requirements.txt`
+4. Configure API Keys
+
 ## How to use the app
 1. Clone this repository
 2. Create `.env` file, go to [news API](https://newsdata.io/documentation), sign up , get api_key quickly which helps you to use app's features fully
