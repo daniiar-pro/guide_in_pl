@@ -52,8 +52,8 @@ git clone https://github.com/daniiar-pro/guide_in_pl.git
 ```
  pip install -r requirements.txt
 ```
-3. Configure API Keys Sign up for free API keys from : [news API](https://newsdata.io/documentation)
-4. Create `.env` file in the root folder and store your `NEW_API_KEY=your_api_key`
+#### 3. Configure API Keys Sign up for free API keys from : [news API](https://newsdata.io/documentation)
+#### 4. Create `.env` file in the root folder and store your `NEW_API_KEY=your_api_key`
 
 ## Usage
 `python main.py`
