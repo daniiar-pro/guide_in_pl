@@ -11,4 +11,3 @@
 
 ![figma_design](https://github.com/user-attachments/assets/fa762052-fb57-4816-8a8b-9fb30ac8ef9e)
 
-![meme](https://github.com/daniiar-pro/guide_in_pl/blob/master/assets/honest_work.jpg)
