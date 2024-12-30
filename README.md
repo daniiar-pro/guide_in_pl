@@ -5,29 +5,29 @@ therefore it run in the terminal rather than browser
 
 ## Features
 
-###📝 News Page
+### 📝 News Page
 - Keep updated with the latest news in Poland
 
-###📚 Study
+### 📚 Study
 - Looking for study? See the list of the schools (university, course, mentoring programs)
   
-###💖 Donate
+### 💖 Donate
 - Want to support? You can donate us to, donations goes to mainenance of the web page with latest most
   up to date sources and services
 
-###🧑🏻‍💻 Job Search
+### 🧑🏻‍💻 Job Search
 - Looking for a job? our job board allows you to find part-time,full-time, permanent, contract based jobs based
   on what you're looking for and also allows you find out plenty of job board pages which is recommended
 
 
-###👨🏻‍⚖️ Legalisation
+### 👨🏻‍⚖️ Legalisation
 - Stay Legal! Solve your legalistaion issues with our consultants, we have one of the best lawyers and
   consultants who are eager to help you
  
-###❓ FAQ
+### ❓ FAQ
 - Frequently Asked Questions: Is there anything else that you want ask, make you to checkout FAQ page, if you don't find your question to be answered there, contact us and our team will get back to you as soon as possible
 
-###⁉️ Report an Issue
+### ⁉️ Report an Issue
 - Have you noticed some sort of untrusted source, report an issue and we'll to try resolve it as soon as possible, we always make sure our users consumes from  trusted and updated sources 
 
 ## How to use the app
